@@ -147,6 +147,6 @@
         Model.PageNumber = pageNumber;
         Model.PageIndex = pageNumber - 1;
 
-        PageIndexChanged.InvokeAsync(pageNumber - 1); // PageIndex를 부모 창으로 전송
+        PageIndexChanged.InvokeAsync(pageNumber - 1); // PageIndex를 부모 컴포넌트로 전송
     }
 }
