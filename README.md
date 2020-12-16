@@ -8,3 +8,12 @@ Blazor Pager Component
 
 DulPager 이름으로 NuGet 패키지에 공개되어 있습니다.
 
+## DulPager가 적용된 프로젝트들
+
+https://github.com/VisualAcademy/Hawaso
+
+https://github.com/VisualAcademy/ReplyApp
+
+https://github.com/VisualAcademy/UploadApp
+
+기타
