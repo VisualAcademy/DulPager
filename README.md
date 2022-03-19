@@ -85,7 +85,7 @@ namespace DulPager
 }
 ```
 
-
+***DulPagerComponent.razor*** 
 
 ```razor
 <div class="d-flex">
