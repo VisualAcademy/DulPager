@@ -11,7 +11,7 @@
         public string Url { get; set; }
 
         /// <summary>
-        /// 총 몇 개의 페이지가 만들어지는지: 총 레코드 수 / 10(한 페이지에서 보여줄) 
+        /// 총 몇 개의 페이지가 만들어지는지: Math.Ceiling(총 레코드 수 / 10(한 페이지에서 보여줄))
         /// </summary>
         public int PageCount { get; set; } = 5;
 
