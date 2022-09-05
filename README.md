@@ -223,7 +223,9 @@ namespace DulPager
     //[2] Parameter가 넘어오면 자동으로 Pager.PageCount 계산
     protected override Task OnParametersSetAsync()
     {
-        Model.PageCount = Convert.ToInt32(Math.Ceiling(Model.RecordCount / (double)Model.PageSize));
+        Model.PageCount = (Model.RecordCount == 0)
+            ? 1 // 페이저 버튼은 최소 1개는 표시
+            : Convert.ToInt32(Math.Ceiling(Model.RecordCount / (double)Model.PageSize));
         return base.OnParametersSetAsync();
     }
 
