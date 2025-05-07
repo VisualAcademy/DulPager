@@ -3,8 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
-    <Description>Blazor Pager Component
-</Description>
+    <Description>Blazor Pager Component</Description>
     <PackageProjectUrl>https://github.com/VisualAcademy/DulPager</PackageProjectUrl>
     <Version>1.0.2</Version>
   </PropertyGroup>
